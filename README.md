@@ -1,7 +1,8 @@
 Note: Components version
 ```
 PHP 8.2.4
-Composer version 2.5.8 2023-06-09 17:13:21
+Composer version 2.5.8
+Laravel: 10.10
 ```
 
 First clone this repository
