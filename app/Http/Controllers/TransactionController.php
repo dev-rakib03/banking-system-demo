@@ -141,7 +141,7 @@ class TransactionController extends Controller
             ->whereMonth('date', now()->month)
             ->sum('amount');
 
-        if ($amount <= 5000 && $monthlyWithdrawals <= 5000) {
+        if ($monthlyWithdrawals+$amount <= 5000) {
             return true;
         }
 
