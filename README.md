@@ -1,7 +1,20 @@
-First clone this repository, install the dependencies, and setup your .env file.
+Note: Components version
+```
+PHP 8.2.4
+Composer version 2.5.8 2023-06-09 17:13:21
+```
 
+First clone this repository
 ```
 git clone git@github.com:dev-rakib03/banking-system-demo.git
+```
+or 
+
+download manually
+
+Install the dependencies, and setup your .env file.
+
+```
 composer install
 cp .env.example .env
 ```
