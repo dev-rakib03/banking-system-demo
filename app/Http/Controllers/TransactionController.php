@@ -103,7 +103,7 @@ class TransactionController extends Controller
                 ->where('transaction_type', 'withdrawal')
                 ->sum('amount');
 
-                if ($totalWithdrawal < 50000) {
+                if ($totalWithdrawal <= 50000) {
                     $feeRate = 0.025;
                 }
                 else{
